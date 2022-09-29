@@ -52,33 +52,37 @@ In this stage of the project I prepared the data for modeling. I created a new c
  
 I tested four different models with a standard scaler on each for my supervised regression price prediction:
  
-Linear Regression
+## 1. Linear Regression
 The most accurate R2 score on the test data was Linear Regression at .4696. It would be hard to predict the price of a home if you get less than half of them correct. The MSE for Linear Regression was 61,734,606,846.02. The RMSE was 248,464.50 and 164,817.45 MAE for the test data from Linear Regression. All these statistics suggest that this model could be very inaccurate at predicting the price. The cross validation mean scores were slightly lower for the R2 score at .413 and a standard deviation average of .198. The grid search cross validation average was .332 for the R2 score and a standard deviation of .154 for Linear Regression.
 
-Ridge Regression
+## 2. Ridge Regression
 Ridge Regression was similar to Linear Regression. The R2 test score was slightly lower at .467. The MSE was 61,974,982,112.41, RMSE was 248947.74 and the MAE was 165,587.70. The mean cross validation R2 score was .413 and the standard deviation average was also .198. The grid search mean was .419 for the R2 score and the standard deviation was .195.
 .
-Random Forest Regression
+## 3. Random Forest Regression
 The Random Forest Regressor model had an R2 test score lower than the first three models at .395. The MSE was also very high at  70,352,537,281.89, RMSE was 248,947.74 and the MAE was 140,215.58. These numbers suggest that it is inaccurate at predicting the price. The cross validation mean R2 score was .358 and the standard deviation was .208. For the grid search the R2 mean score was .276 and a standard deviation of .319. The cross validations confirm that this model is not very good at predicting the price.
  
-XGB Regression
+## 4. XGB Regression
 The XGB Regression Model had the lowest R2 test score of .303. The MSE was 81,126,092,073.28, RMSE was  248,947.74 and the MAE was 145,701.31. The cross validation mean R2 score was .285 and the standard deviation was .173. The grid search R2 score average was .236 and the standard deviation average was .411. This was the most inaccurate model out of all four.
 
  
-## 5.Recommendations and Going Forward 
+## 5. Recommendations and Going Forward 
 
-After running all four models on the data I recommend:
+## Recommendations:
 
 1. More Data
+
 That we use more sales data to predict the price of a home. More information on homes that sold could lead to a model that has a higher R2 score and is more accurate at predicting. If there are more variables like garage size and school district could lead to an improved model. If we had the data on sales for every home sold in the Seattle area for an entire year we could potentially create a better model predictor.
  
 2. Sharing Information to Clients
+
 I would share with potential clients of the real estate firm the correlations we found from our exploratory data analysis. If they are interested in purchasing a home, we found certain traits that go together. Such as the more square feet a home has, the price typically increases. Thus the buyers would need more money. If a buyer with a large family values space in a home they will likely need more cash for the property. A good thing to mention to clients is that a majority of homes that sell have a condition rating of three or higher. This would help with buyer morale since they know the home could potentially be in a good shape and does not need many repairs. It would also help sellers to realize that they will need to fix issues with the house if they want to go under contract.
  
 3. Unique Houses for Clients
+
 If a client was looking to sell a home that had traits that were an outlier in the Seattle area we could compare it to other properties that had similar traits. We could use this data for comps to show a potential seller what they could possibly sell their house for based upon similar homes. The data could also help a buyer know if a house they really like is over or under priced. It could potentially be a better predictor of comps than what is on zillow.
  
-8. Next Steps
+## Going Forward
+
 The company needs to obtain or collect more data to create a better regression model to predict the price of a home for their buyers and sellers. The data department could collect the information from their local Multiple Listing Service or from county documents.The more information we can obtain the better we can help serve our potential clients. This would give us a competitive advantage over other real estate firms.
 I also suggest running models on all the variables to help clients. This would help them understand how much square feet of living space you can expect with other independent variables. Or how many bedrooms they could expect with certain X variables.
 
