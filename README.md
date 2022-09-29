@@ -1,4 +1,4 @@
-# Predicting-the-Price-of-a-Property
+# Predicting the Price of a Property
 
 ## Home Evaluation Predictor 
 
