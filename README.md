@@ -18,7 +18,7 @@ I initially had 4,600 rows and 18 columns from the kaggle dataset. During this s
 I rearranged the columns to put relevant variables next to each other and explored the mean, maxim, minimum, standard deviation of each numeric column. This helped to understand my data and see if there were any missing values or outliers.
 
 ## 3. Exploratory Data Analysis
-[EDA](https://github.com/GHASS19/QB_Project/blob/main/Notebooks/3.%20QB_EDA.ipynb)
+[EDA](http://localhost:8888/notebooks/Documents/GitHub/Home%20Price%20Predictor%20Capstone/%20Pre-Processing%2C%20Training%20%20%26%20Modeling.ipynb)
  
 I continued to clean up the data to give us a better set of data to work with. More importantly, we found out which variables have a strong & negative correlation.
  
@@ -42,7 +42,7 @@ Other interesting finds during the EDA stage was:
 - One home had a square feet of living space that was under 2,000 sq ft and was very expensive. 
  
 ## 4. Data Preprocessing & Training
-[Data Preprocessing & Training](http://localhost:8888/notebooks/Documents/GitHub/Home%20Price%20Predictor%20Capstone/%20Pre-Processing%2C%20Training%20%20%26%20Modeling.ipynb#3.11_Model_Metrics)
+[Data Preprocessing & Training](http://localhost:8888/notebooks/Documents/GitHub/Home%20Price%20Predictor%20Capstone/%20Pre-Processing%2C%20Training%20%20%26%20Modeling.ipynb)
  
 In this section we tried four different models to see which one predicts the y variable the best in the test data. Our y variable is the amount of touchdowns a QB will throw in any given game. The X variables are the rest of our data columns. These different models used the X variable to predict the amount of touchdowns.
  
