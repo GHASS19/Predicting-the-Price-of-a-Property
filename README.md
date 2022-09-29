@@ -28,6 +28,7 @@ The correlation heat map was very useful to see which columns were relevant. The
 3. Square living space above and bathrooms also have a high correlation at .69.
 
 Negitive Correlation:
+
 1.The biggest negative correlation was bed to bath ratio at -.66.
 
  
