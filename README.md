@@ -33,8 +33,9 @@ Negitive Correlation:
 
  ![image](https://user-images.githubusercontent.com/86930309/193145314-8b8c26b4-0fa3-44d7-914d-2b8dcfcd7a77.png)
 
--Other interesting finds during the EDA stage was that there was many outliers with a high amount of square feet for living, above and below ground level.
--The majority of homes that were sold had a good condition rating of 3-5.
+Other interesting finds during the EDA stage was:
+- There was many outliers with a high amount of square feet for living, above and below ground level.
+- The majority of homes that were sold had a good condition rating of 3-5.
 - As the number of bedrooms increased so did the amount of bathrooms in a particular house increase too. 
 - Most of the homes had between three and six bedrooms.
 - There was a positive correlation between price and square feet of living space. 
