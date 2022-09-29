@@ -33,8 +33,12 @@ Negitive Correlation:
 
  ![image](https://user-images.githubusercontent.com/86930309/193145314-8b8c26b4-0fa3-44d7-914d-2b8dcfcd7a77.png)
 
-The distribution of the data showed us that many of the touchdowns thrown were in the range of 0-3. There were not many 4-7 touchdowns thrown in a game. Very hard to do. The distribution displayed also that most QBs had a rating of 80 and most of the other data points were equally distributed on either side.
- 
+-Other interesting finds during the EDA stage was that there was many outliers with a high amount of square feet for living, above and below ground level.
+-The majority of homes that were sold had a good condition rating of 3-5.
+- As the number of bedrooms increased so did the amount of bathrooms in a particular house increase too. 
+- Most of the homes had between three and six bedrooms.
+- There was a positive correlation between price and square feet of living space. 
+- One home had a square feet of living space that was under 2,000 sq ft and was very expensive. 
  
 ## 4. Data Preprocessing & Training
 [Data Preprocessing & Training](https://github.com/GHASS19/QB_Project/blob/main/Notebooks/4.%20QB%20Data%20Pre-processing%2C%20Training%20and%20Modeling%20Data%20Development.ipynb) 
