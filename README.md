@@ -70,7 +70,7 @@ The XGB Regression Model had the lowest R2 test score of .303. The MSE was 81,12
  
 ## 6. Recommendations and Going Forward 
 
-## - Recommendations:
+## Recommendations
 
 a. More Data
 
@@ -84,7 +84,7 @@ c. Unique Houses for Clients
 
 If a client was looking to sell a home that had traits that were an outlier in the Seattle area we could compare it to other properties that had similar traits. We could use this data for comps to show a potential seller what they could possibly sell their house for based upon similar homes. The data could also help a buyer know if a house they really like is over or under priced. It could potentially be a better predictor of comps than what is on zillow.
  
-## - Going Forward
+## Going Forward
 
 The company needs to obtain or collect more data to create a better regression model to predict the price of a home for their buyers and sellers. The data department could collect the information from their local Multiple Listing Service or from county documents.The more information we can obtain the better we can help serve our potential clients. This would give us a competitive advantage over other real estate firms.
 
