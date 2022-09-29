@@ -2,4 +2,4 @@
 
 ## Home Evaluation Predictor 
 
-![Optional Text](../ThisPC/Pictures/SavedPictures/openhouse/.png)
+![Optional Text](../This PC/Pictures/Saved Pictures/open house/.png)
