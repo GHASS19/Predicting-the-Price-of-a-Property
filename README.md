@@ -4,27 +4,32 @@
 
 ![image](https://lh3.googleusercontent.com/p/AF1QipMonHBuOOrL0UUzj45iIrfMqY2I76lbLNuPtNFg=w960-h960-n-o-v1)
 
-   *Real Estate companies need help in accurately predicting the price of a home for their clients. They do this with variables such as square feet, bedrooms, etc..  Both the realtor and client need to know if a house is accurately priced. Or over/undervalued. It can help a company assist their clients better. It also gives them a competive advantage over other real estate brokers by providing accurate price predictions.*
+   *Real Estate companies need help in accurately predicting the price of a home for their clients. They do this with variables such as square feet, bedrooms, etc.  Both the realtor and client need to know if a house is accurately priced. Or over/undervalued. It can help a company assist their clients better. It also gives them a competive advantage over other real estate brokers by providing accurate price predictions.*
  
  
 ## 1. The Data
-The database is the largest collection of quarterback data on Kaggle, (https://www.kaggle.com/datasets/speckledpingu/nfl-qb-stats). The stats are from every National Football League game from 1996-2016. This was a CSV file.
+The data is a CSV from a Seattle metro area real estate database on kaggle, (https://www.kaggle.com/datasets/shree1992/housedata?select=data.csv ). The data timeframe is from May 1st, 2014 to July 9th, 2014.
  
 ## 2. Data Wrangling
-[Data Wrangling](https://github.com/GHASS19/QB_Project/blob/main/Notebooks/2.%20QB_Data_Wrangling.ipynb) 
- 
-In this part of the data exploration I added rows and corrected the columns. I cleaned some of the data and found key features of each column. I found the standard deviation and median. I also discovered if any of the columns had a null value. 
- 
-There were 719 missing values for the TD per completion and yards per catch columns. It was 5.45% of their entire column for both of these variables. This phase of the project ensured that the data was pure and ready for modeling.
- 
+[Data Wrangling]([https://github.com/GHASS19/QB_Project/blob/main/Notebooks/2.%20QB_Data_Wrangling.ipynb](https://github.com/GHASS19/Predicting-the-Price-of-a-Property/blob/main/Notebooks/Data%20Wrangling%20%26%20EDA%20for%20Home%20Price%20Predictor%20Capstone.ipynb)) 
+
+I initially had 4,600 rows and 18 columns from the kaggle dataset. During this stage I uploaded the data to a jupyter notebook. Cleaned the data such as separating the column ‘StateZip’ into a separate ‘State’ and ‘Zip Code’ columns. Added the rows ‘bd/bd %’, (Bedrooms / Bathrooms) and 'Age’ (Year -  Yr_built).
+
+I rearranged the columns to put relevant variables next to each other and explored the mean, maxim, minimum, standard deviation of each numeric column. This helped to understand my data and see if there were any missing values or outliers.
+
 ## 3. Exploratory Data Analysis
 [EDA](https://github.com/GHASS19/QB_Project/blob/main/Notebooks/3.%20QB_EDA.ipynb)
  
 I continued to clean up the data to give us a better set of data to work with. More importantly, we found out which variables have a strong & negative correlation.
  
-The strongest correlations were Attempts & Completions (.94), Attempts & TDs (.87), Completions & Yards (.91), Attempts & yards (.87), Sack & loss_yds (.91), Yards per Catch & Yards per Attempt (.87) and TD per Attempt & TD per completion (.97).
- 
-The largest negative correlations were Game Points & Sack (-.23), Game Points & Loss yards (-.23), Interceptions & Rate (-.44) Game Points & Int (-.23). Three of these included game points. Which would be very useful to a team as the more points you score the better odds you have of winning.
+The correlation heat map was very useful to see which columns were relevant. There were a few variables that had a high positive correlation:
+1. Square feet of living and square feet above are related at .88.
+2. Square living space and bathrooms had a high correlation at .76.
+3. Square living space above and bathrooms also have a high correlation at .69.
+
+Negitive Correlation:
+1.The biggest negative correlation was bed to bath ratio at -.66.
+
  
 ![image](https://user-images.githubusercontent.com/86930309/182245708-801824a2-5d4e-4c41-8fc5-3bd26f381edb.png)
  
