@@ -42,7 +42,7 @@ Other interesting finds during the EDA stage was:
 - One home had a square feet of living space that was under 2,000 sq ft and was very expensive. 
  
 ## 4. Data Preprocessing & Training
-[Data Preprocessing & Training](https://github.com/GHASS19/QB_Project/blob/main/Notebooks/4.%20QB%20Data%20Pre-processing%2C%20Training%20and%20Modeling%20Data%20Development.ipynb) 
+[Data Preprocessing & Training](http://localhost:8888/notebooks/Documents/GitHub/Home%20Price%20Predictor%20Capstone/%20Pre-Processing%2C%20Training%20%20%26%20Modeling.ipynb#3.11_Model_Metrics)
  
 In this section we tried four different models to see which one predicts the y variable the best in the test data. Our y variable is the amount of touchdowns a QB will throw in any given game. The X variables are the rest of our data columns. These different models used the X variable to predict the amount of touchdowns.
  
