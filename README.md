@@ -11,7 +11,7 @@
 The data is a CSV from a Seattle metro area real estate database on kaggle, (https://www.kaggle.com/datasets/shree1992/housedata?select=data.csv ). The data timeframe is from May 1st, 2014 to July 9th, 2014.
  
 ## 2. Data Wrangling
-[Data Wrangling](http://localhost:8888/notebooks/Documents/GitHub/Home%20Price%20Predictor%20Capstone/Data%20Wrangling%20%26%20EDA%20for%20Home%20Price%20Predictor%20Capstone.ipynb#Data_Wrangling_&_EDA_for_Home_Price_Predictor_Capstone)
+[Data Wrangling](http://localhost:8888/notebooks/Documents/GitHub/Home%20Price%20Predictor%20Capstone/Data%20Wrangling%20%26%20EDA%20for%20Home%20Price%20Predictor%20Capstone.ipynb)
 
 I initially had 4,600 rows and 18 columns from the kaggle dataset. During this stage I uploaded the data to a jupyter notebook. Cleaned the data such as separating the column ‘StateZip’ into a separate ‘State’ and ‘Zip Code’ columns. Added the rows ‘bd/bd %’, (Bedrooms / Bathrooms) and 'Age’ (Year -  Yr_built).
 
