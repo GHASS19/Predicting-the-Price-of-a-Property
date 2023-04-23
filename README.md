@@ -86,7 +86,7 @@ If a client was looking to sell a home that had traits that were an outlier in t
  
 ## Going Forward
 
-The company needs to obtain or collect more data to create a better regression model to predict the price of a home for their buyers and sellers. The data department could collect the information from their local Multiple Listing Service or from county documents.The more information we can obtain the better we can help serve our potential clients. This would give us a competitive advantage over other real estate firms.
+The company needs to obtain or collect more data to create a better regression model to predict the price of a home for their buyers and sellers. The data department could collect the information from their local Multiple Listing Service or from county documents. The more information we can obtain the better we can help serve our potential clients. This would give us a competitive advantage over other real estate firms.
 
 I also suggest running models on all the variables to help clients. This would help them understand how much square feet of living space you can expect with other independent variables. Or how many bedrooms they could expect with certain X variables.
 
